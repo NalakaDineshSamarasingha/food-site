@@ -1,0 +1,34 @@
+.feature-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 8%;
+    color: white;
+}
+.feature{
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00AF91;
+    padding: 30px 60px;
+    border-radius: 40px;
+    gap: 140px;
+}
+.food{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.deliver{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.food-title{
+    font-weight: bold;
+}
+.deliver-title{
+    font-weight: bold;
+}

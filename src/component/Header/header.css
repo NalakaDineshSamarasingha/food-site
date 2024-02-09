@@ -1,0 +1,30 @@
+.header{
+    width: 100%;
+    background-color: #009E83;
+    height: 84vh;  
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.right img{
+    overflow: hidden;
+    margin-right: -180px;
+    position: relative;
+    top: -10%;
+    right: 0;
+}
+.left{
+    margin-left: 7%;
+    margin-top: 8%;
+}
+.left p{
+    font-size: 60px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 5%;
+}
+.left .btn{
+    font-size: 20px;
+    padding: 20px 30px;
+    border-radius: 40px;
+}
