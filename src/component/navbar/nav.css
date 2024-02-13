@@ -1,9 +1,12 @@
 .navbar{
-    background-color: #009E83;
+    background-color: #425563;
     display: flex;
     justify-content: center;
-    position: relative;
-    z-index: 10;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    align-items: center;
+    height: 6rem;
 }
 .container{
     width: 86%;
