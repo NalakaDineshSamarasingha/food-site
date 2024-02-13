@@ -51,11 +51,13 @@
         flex-direction: column;
         position: absolute;
         width: 100%;
-        height: calc(100vh - 5rem);
+        margin-top: 0;
+        height: calc(100vh - 6rem);
         margin-top: 4rem;
         color: red;
         justify-content: center;
-        align-items: baseline;
+        align-items: center;
         background: rgb(40,40,40);
+        left: 0;
     }
 }
