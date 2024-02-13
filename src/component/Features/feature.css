@@ -32,3 +32,8 @@
 .deliver-title{
     font-weight: bold;
 }
+@media screen and (max-width:600px){
+    .feature-container{
+        display: none;
+    }
+}
