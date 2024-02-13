@@ -19,6 +19,14 @@ const Navbar = ()=>{
                         <li className="contact" onClick={()=>setShowMenu(false)} >Contact Us</li>
                     </ul>
                 </div>
+                <div className="navlinks desk" >
+                    <ul className="link" >
+                        <li className="home">Home</li>
+                        <li className="food" >Food</li>
+                        <li className="about"  >About Us</li>
+                        <li className="contact" >Contact Us</li>
+                    </ul>
+                </div>
                 <div className="order-button">
                     <button className="btn">Order Now</button>
                 </div>

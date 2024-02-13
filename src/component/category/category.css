@@ -44,7 +44,13 @@
     border-radius: 20px;    
 }
 @media screen and (max-width:600px){
+    .main{
+        display: flex;
+        flex-direction: column;
+        gap: 4rem;
+    }
     .category{
-        display: none;
+        margin-top: 2rem;
+        margin-bottom: 4rem;
     }
 }

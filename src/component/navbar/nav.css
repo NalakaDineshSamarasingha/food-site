@@ -38,8 +38,19 @@
     color: black;
     font-weight: bold;
 }
+.mobo{
+    display: none;
+}
 
 @media screen and (max-width:600px) {
+    .desk{
+        display: none;
+    }
+    .mobo{
+        display: flex;
+        font-size: 1.5rem;
+        
+    }
     .order-button{
         display: none;
     }
@@ -59,5 +70,8 @@
         align-items: center;
         background: rgb(40,40,40);
         left: 0;
+    }
+    .logo{
+        width: 50px;
     }
 }

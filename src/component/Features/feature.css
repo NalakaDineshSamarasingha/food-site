@@ -33,7 +33,10 @@
     font-weight: bold;
 }
 @media screen and (max-width:600px){
-    .feature-container{
-        display: none;
+    .feature{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
     }
+
 }
